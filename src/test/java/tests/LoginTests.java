@@ -41,4 +41,7 @@ public class LoginTests {
         Assert.assertTrue(driver.getCurrentUrl().equals(currentUrl));
 
     }
+
+    @Test
+    public void veLogin() {}
 }
