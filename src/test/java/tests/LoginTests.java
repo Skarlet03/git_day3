@@ -29,6 +29,7 @@ public class LoginTests {
         driver.findElement(By.id("ctl00_MainContent_username")).sendKeys("Tester");
         driver.findElement(By.id("ctl00_MainContent_password")).sendKeys("test" + Keys.ENTER);
         Assert.assertTrue(driver.getTitle().equals("Web Orders"));
+        System.out.println("d");
     }
     @Test
     public void negativeLogin() {
