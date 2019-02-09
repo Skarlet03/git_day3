@@ -40,15 +40,6 @@ public class LoginTests {
         driver.findElement(By.id("ctl00_MainContent_password")).sendKeys("Test" + Keys.ENTER);
         Assert.assertTrue(driver.getTitle().equals("Web Orders Login"));
         Assert.assertTrue(driver.getCurrentUrl().equals(currentUrl));
-
-
-        //=================
-        driver.findElement(By.id("ctl00_MainContent_password")).sendKeys("Test" + Keys.ENTER);
-        Assert.assertTrue(driver.getTitle().equals("Web Orders Login"));
-        Assert.assertTrue(driver.getCurrentUrl().equals(currentUrl));
-        //hjghlkl;kjhdfdghjdfghj
-
-
     }
 
     @Test
