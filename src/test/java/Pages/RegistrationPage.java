@@ -1,10 +1,8 @@
 package Pages;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class RegistrationPage {
-
-    //On branch featureNew\
-    //jkldfvm,.
-    //fbvrgfds
-
-
+    Map<String, String> myMap = new HashMap<>();
 }
